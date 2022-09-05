@@ -293,9 +293,10 @@ a:hover {
     }
 
     .nav--item {
-        margin-left: 40px;
+        margin-left: 0px;
     }
     .nav--link {
+        margin-left: 30px;
         font-size: 10px;
         font-family: 'Montserrat-Light';
     }
@@ -334,7 +335,8 @@ a:hover {
         font-family: 'Shadows Into Light', cursive;
         font-size: 1rem;
         color: #066467;
-        margin: 0;
+        margin-bottom: 10px;
+
     }
 
     .photo {
@@ -348,7 +350,7 @@ a:hover {
 
     .ro {
         position: absolute;
-        margin-left: -5.1rem;
+        margin-left: -6.2rem;
         transform: rotate(180deg);
     }
 
@@ -364,8 +366,8 @@ a:hover {
 
     .profile {
         margin-top: 0rem;
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 100px;
         border-radius: 20%;
         position: relative;
     }
@@ -374,16 +376,17 @@ a:hover {
         padding-top: 0px;
         font-family: 'Satisfy', cursive;
         width: 40%;
-        margin-left:100px;
+        margin-left:120px;
         margin-top: 20px;
         z-index: 1;
+        font-size:xx-large;
     }
 
     .bio {
         /* font-family: 'Satisfy', cursive; */
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         width: 90%;
-        font-size: large;
+        font-size: larger;
         margin-left: 15px;
         z-index: 0;
 
@@ -416,6 +419,7 @@ a:hover {
         margin-bottom: 10px;
         z-index: 0;
         width: 90%;
+        font-size: large;
 
     }
     .pro {
@@ -432,6 +436,9 @@ a:hover {
     }
     .card-text{
         margin: 0;
+    }
+    .GET{
+        font-size: xx-large;
     }
     .end {
         position: fixed;
