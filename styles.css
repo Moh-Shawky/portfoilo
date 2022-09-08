@@ -281,7 +281,6 @@ a:hover {
 
     .title {
         padding-top: -5px;
-        font-size: 20px;
         margin-left: 40px;
     }
 
@@ -292,7 +291,7 @@ a:hover {
         text-decoration: none;
         font-family: "Ubuntu";
         line-height: 1.5;
-        font-size: 20px;
+        font-size: 40px;
     }
 
     .nav--item {
@@ -314,7 +313,7 @@ a:hover {
         background-position: top;
         position: relative;
         z-index: 1;
-        padding-bottom: 3rem;
+        padding-bottom: 4.5rem;
     }
 
     h2 {
@@ -323,7 +322,7 @@ a:hover {
 
     h1 {
         font-family: 'Satisfy', cursive;
-        font-size: 2rem;
+        font-size: 2.5rem;
         color: #d46e57;
         padding-top: 1rem;
         margin: 0;
@@ -335,7 +334,7 @@ a:hover {
         /* color: white; */
         padding: 16px;
         margin-top: -50;
-        margin-left: 100px;
+        margin-left: 140px;
         font-size: 16px;
         border: none;
         cursor: pointer;
@@ -348,7 +347,7 @@ a:hover {
 
     .dropdown-content {
         display: none;
-        position: absolute;
+        position:fixed;
         background-color: #f1f1f1;
         overflow: auto;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -359,7 +358,7 @@ a:hover {
         color: black;
         padding: 12px 16px;
         text-decoration: none;
-        display: block;
+        display:inline-block;
     }
 
     .dropdown a:hover {
@@ -379,7 +378,7 @@ a:hover {
 
     .font {
         font-family: 'Shadows Into Light', cursive;
-        font-size: 1rem;
+        font-size: 1.5rem;
         color: #066467;
         margin-bottom: 10px;
 
@@ -390,8 +389,8 @@ a:hover {
         position: relative;
         border-radius: 30%;
         transform: scaleX(-1);
-        width: 50%;
-        height: 50%;
+        width: 55%;
+        height: 55%;
     }
 
     .ro {
