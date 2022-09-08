@@ -278,8 +278,8 @@ a:hover {
     body {
         padding: 0;
         text-align: center;
-        height: 100%;
-        width: 100%;
+        height: 115%;
+        width: 115%;
     }
 
     .navbar--brand {
@@ -383,7 +383,7 @@ a:hover {
 
     .font {
         font-family: 'Shadows Into Light', cursive;
-        font-size:1.74rem;
+        font-size:1.70rem;
         color: #066467;
         margin-bottom: 10px;
 
