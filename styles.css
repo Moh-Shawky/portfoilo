@@ -90,7 +90,10 @@ a:hover {
     padding-bottom: 7rem;
     z-index: 1;
 }
-
+.dropdown{
+    visibility: hidden;
+    position:absolute;
+}
 .words {
     margin-left: 50px;
     float: left;
@@ -295,23 +298,29 @@ a:hover {
     .nav--item {
         margin-left: 0px;
     }
+
     .nav--link {
         margin-left: 30px;
         font-size: 10px;
         font-family: 'Montserrat-Light';
+        visibility: hidden;
+        position: absolute;
     }
+
     .head {
-        padding-top:1rem;
+        padding-top: 1rem;
         padding-left: 20px;
         background-color: #69bce8;
         background-position: top;
         position: relative;
-        padding-bottom: 7rem;
         z-index: 1;
+        padding-bottom: 3rem;
     }
-    h2{
+
+    h2 {
         margin-bottom: 30px;
     }
+
     h1 {
         font-family: 'Satisfy', cursive;
         font-size: 2rem;
@@ -320,8 +329,45 @@ a:hover {
         margin: 0;
     }
 
-    .head {
-        padding-bottom: 3rem;
+    .dropbtn {
+        position:absolute;
+        background-color: #1689d1;
+        /* color: white; */
+        padding: 16px;
+        margin-top: 70;
+        margin-left: 150px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        visibility: visible;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown a:hover {
+        background-color: #ddd;
+    }
+
+    .show {
+        display: block;
     }
 
     .words {
@@ -376,10 +422,10 @@ a:hover {
         padding-top: 0px;
         font-family: 'Satisfy', cursive;
         width: 40%;
-        margin-left:120px;
+        margin-left: 120px;
         margin-top: 20px;
         z-index: 1;
-        font-size:xx-large;
+        font-size: xx-large;
     }
 
     .bio {
@@ -393,7 +439,7 @@ a:hover {
     }
 
     .skill-row {
-        text-align:center;
+        text-align: center;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 20px;
         width: 55%;
@@ -422,6 +468,7 @@ a:hover {
         font-size: large;
 
     }
+
     .pro {
         position: relative;
         text-align: center;
@@ -430,16 +477,20 @@ a:hover {
         height: 100%;
         margin-left: 0;
     }
-    img{
+
+    img {
         width: 50%;
         margin: 0;
     }
-    .card-text{
+
+    .card-text {
         margin: 0;
     }
-    .GET{
+
+    .GET {
         font-size: xx-large;
     }
+
     .end {
         position: fixed;
         bottom: 1rem;

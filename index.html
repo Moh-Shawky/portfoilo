@@ -22,15 +22,23 @@
       <li> <a class="navbar--brand title" href="">Mohamed's portfoilo</a>
       </li>
       <li class="nav--item">
-        <a class="nav--link navbar--brand" href="#Contact" >Contact</a>
+        <a class="nav--link navbar--brand" href="#Contact">Contact</a>
       </li>
-      <li >
+      <li>
         <a class="nav--link navbar--brand" href="#Projects">Projects</a>
       </li>
-      <li >
+      <li>
         <a class="nav--link navbar--brand" href="#About">About</a>
       </li>
     </ul>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn"><i class="fas fa-bars"></i></button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#Projects">Projects</a>
+        <a href="#About">About</a>
+        <a href="#Contact">Contact</a>
+      </div>
+    </div>
     <div class="words">
       <h1>I'm Moh Shawky</h1>
       <h3 class="font">a student at FCAI-CU ,can deal with different tools of web development, know basics of
@@ -49,8 +57,11 @@
       <img class="profile" src="photos/IMG_20210628_003211_436.jpg">
       <h2 class="bio2">Hello,</h2>
       <p class="bio">I am an egyption man called <span>Mohamed Ibrahim Shawk</span>y i'm 21 live in Giza, at level 4 of
-        faculty of FCAI-CU at Bioinformatics department, love Animation, Anime and korean drama ,in my spare time i ride
-        my bike (Billa) or watch movies & matches or, my local football team is "Al Ahly", european one is "Barcelona",
+        faculty of FCAI-CU at Bioinformatics department, Computer science and bioinformatics senior student, learn
+        basics
+        of web development, Dealing with alignments with different tools, and seeking to leverage exemplary leadership
+        skills, analytical skills,and coding skills, love Animation, Anime and korean drama ,in my spare time i ride
+        my bike (Billa) or watch movies & matches, my local football team is "Al Ahly", european one is "Barcelona",
         my favorite player is Leo Messi.
       </p>
       <hr>
@@ -125,8 +136,9 @@
       <hr>
       <img src="photos/web-development.png" class="icon">
       <h2 class="GET">Get In Touch</h2>
-      <h3>If you care and wants to <a class="hier" href="mailto:mohamedshawky20m@email.com">hier</a> me just send to me</h3>
-      
+      <h3>If you care and wants to <a class="hier" href="mailto:mohamedshawky20m@email.com">hier</a> me just send to me
+      </h3>
+
       <div class="bottom-container">
         <a class="link" target="_blank" href="https://www.linkedin.com/in/mohamed-shawky-0a5b641b3/">LinkedIn</a>
         <a class="link" target="_blank" href="https://www.facebook.com/profile.php?id=100009423840613">Facebook
@@ -136,5 +148,27 @@
       </div>
   </div>
   </section>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
 </body>
+
 </html>
