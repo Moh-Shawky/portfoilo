@@ -90,10 +90,12 @@ a:hover {
     padding-bottom: 7rem;
     z-index: 1;
 }
-.dropdown{
+
+.dropdown {
     visibility: hidden;
-    position:absolute;
+    position: absolute;
 }
+
 .words {
     margin-left: 50px;
     float: left;
@@ -279,11 +281,6 @@ a:hover {
         width: 100%;
     }
 
-    .title {
-        padding-top: -5px;
-        margin-left: 40px;
-    }
-
     .navbar--brand {
         padding-top: 0rem;
         padding-bottom: 0.3125rem;
@@ -292,6 +289,12 @@ a:hover {
         font-family: "Ubuntu";
         line-height: 1.5;
         font-size: 25px;
+    }
+
+    .title {
+        padding-top: -5px;
+        /* margin-left: 90px; */
+        font-size: 35px;
     }
 
     .nav--item {
@@ -329,16 +332,17 @@ a:hover {
     }
 
     .dropbtn {
-        position:absolute;
+        position: relative;
         background-color: #1689d1;
         /* color: white; */
         padding: 16px;
         margin-top: -50;
-        margin-left: 130px;
+        /* margin-left:80px; */
         font-size: 16px;
         border: none;
         cursor: pointer;
     }
+
     .dropdown {
         position: relative;
         display: inline-block;
@@ -347,7 +351,7 @@ a:hover {
 
     .dropdown-content {
         display: none;
-        position:fixed;
+        position: fixed;
         background-color: #f1f1f1;
         overflow: auto;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -358,7 +362,7 @@ a:hover {
         color: black;
         padding: 12px 16px;
         text-decoration: none;
-        display:list-item;
+        display:inline-table;
     }
 
     .dropdown a:hover {
@@ -395,7 +399,7 @@ a:hover {
 
     .ro {
         position: absolute;
-        margin-left: -5.5rem;
+        margin-left: -8.3rem;
         transform: rotate(180deg);
     }
 
