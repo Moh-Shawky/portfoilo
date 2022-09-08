@@ -293,7 +293,7 @@ a:hover {
 
     .title {
         padding-top: -5px;
-        /* margin-left: 90px; */
+        margin-left: -5px;
         font-size: 30px;
     }
 
@@ -399,7 +399,7 @@ a:hover {
 
     .ro {
         position: absolute;
-        margin-left: -8.3rem;
+        margin-left: -5.54rem;
         transform: rotate(180deg);
     }
 
