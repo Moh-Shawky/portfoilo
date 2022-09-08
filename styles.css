@@ -326,7 +326,7 @@ a:hover {
 
     h1 {
         font-family: 'Satisfy', cursive;
-        font-size: 2.5rem;
+        font-size: 2.6rem;
         color: #d46e57;
         padding-top: 1rem;
         margin: 0;
@@ -383,7 +383,7 @@ a:hover {
 
     .font {
         font-family: 'Shadows Into Light', cursive;
-        font-size: 1.5rem;
+        font-size:1.74rem;
         color: #066467;
         margin-bottom: 10px;
 
@@ -499,7 +499,7 @@ a:hover {
         position: fixed;
         margin: 0px;
         bottom: 1rem;
-        margin-right: 1.3rem;
+        margin-right: 2.5rem;
         padding: 5px;
         height: 2rem;
         font-size: 2em;
