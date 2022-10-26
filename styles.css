@@ -301,11 +301,6 @@ a:hover {
         font-size: 25px;
     }
 
-    .navbar--nav {
-        position:relative;
-        margin-left: -1rem;
-    }
-
     .title {
         padding-top: -5px;
         margin-left: 15px;
@@ -345,7 +340,10 @@ a:hover {
         padding-top: 1rem;
         margin: 0;
     }
-
+    .navbar--nav {
+        position:relative;
+        margin-left: -1rem;
+    }
     .dropbtn {
         position: relative;
         background-color: #1689d1;
@@ -353,13 +351,13 @@ a:hover {
         padding: 16px;
         margin-top: -50;
         /* margin-left:80px; */
-        font-size: 16px;
+        font-size: 10px;
         border: none;
         cursor: pointer;
     }
 
     .dropdown {
-        margin-left: 3rem;
+        margin-left: 7rem;
         margin-top: -3.5rem;
         position: absolute;
         display: inline-block;
