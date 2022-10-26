@@ -217,10 +217,12 @@ a:hover {
     margin-left: 2rem;
 
 }
+
 .mvc {
     margin-left: 2rem;
 
 }
+
 .laravel {
     margin-left: 2rem;
 
@@ -285,8 +287,8 @@ a:hover {
     body {
         padding: 0;
         text-align: center;
-        height: 115%;
-        width: 115%;
+        height: 100%;
+        width: 100%;
     }
 
     .navbar--brand {
@@ -297,6 +299,11 @@ a:hover {
         font-family: "Ubuntu";
         line-height: 1.5;
         font-size: 25px;
+    }
+
+    .navbar--nav {
+        position:relative;
+        margin-left: -1rem;
     }
 
     .title {
@@ -352,7 +359,9 @@ a:hover {
     }
 
     .dropdown {
-        position: relative;
+        margin-left: 3rem;
+        margin-top: -3.5rem;
+        position: absolute;
         display: inline-block;
         visibility: visible;
     }
@@ -370,7 +379,7 @@ a:hover {
         color: black;
         padding: 12px 16px;
         text-decoration: none;
-        display:table-caption;
+        display: table-caption;
     }
 
     .dropdown a:hover {
@@ -390,7 +399,7 @@ a:hover {
 
     .font {
         font-family: 'Shadows Into Light', cursive;
-        font-size:1.70rem;
+        font-size: 1.70rem;
         color: #066467;
         margin-bottom: 10px;
 
@@ -406,9 +415,7 @@ a:hover {
     }
 
     .ro {
-        position: absolute;
-        margin-left: -6.7rem;
-        transform: rotate(180deg);
+        display: none;
     }
 
     .About {
@@ -477,7 +484,7 @@ a:hover {
         font-weight: bold;
         z-index: 0;
         width: 90%;
-        font-size:  1.5rem;
+        font-size: 1.5rem;
 
     }
 
